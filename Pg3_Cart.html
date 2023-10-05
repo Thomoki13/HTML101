@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+<style>
+
+table {
+
+  border: 3px solid black;
+  border-collapse: collapse;
+  width: 40px;
+}
+th, td {
+
+border: 1px solid black;
+border-collapse: collapse;
+height: 40px;
+}
+select {
+
+  right: 70px;
+  position: relative;
+  left: 60px;
+}
+.price1 {
+    padding-left: 70%;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<h2>Shoping Cart</h2>
+
+<table style="width:40%" >
+    <tr>
+      <th>Items</th>
+      <th>Quantities</th> 
+      <th>Price (THB)</th>
+
+    </tr>
+    <tr>
+      <td><b>Toy Name</b> by brand 
+    <p style="word-spacing: 40px;"> Gender Age </p>
+    <p style="color: red;">Instock / Out of Stock</p>
+    <p style="color: blue;">Delete</p></td>
+      <td><select name="Age" id="Age"  >
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+    </select></td>
+      <td><div class="price1">100.00</div></td>
+
+    </tr>
+    <tr>
+        <td><b>Toy Name</b> by brand 
+        <p style="word-spacing: 40px;"> Gender Age </p>
+        <p style="color: red;">Instock / Out of Stock</p>
+        <p style="color: blue;">Delete</p></td>
+          <td><select name="Age" id="Age"  >
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select></td>
+          <td><div class="price1">100.00</div></td>
+    </tr>
+</table>
+
+<div style="padding-left: 0px;">
+    
+        Shipping Method: Kerry Express <b style="padding-left: 230px;">Subtotal (2 items):</b><b style="color: brown;">200.00</b><b>THB</b><br>
+        Shipping fee: 150.00 THB <b style="padding-left: 300px;">ShippingvFee:</b><b style="color: brown;">150.00</b><b>THB</b>
+    </div>
+    <p style="padding-left: 514px;"><input type="button" value="Process to checkout"></p>
+</body>
+</html>
