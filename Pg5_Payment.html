@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Method</title>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        .column {
+          float: left;
+          width: 21%;
+          padding: 10px;
+         
+        }
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        table {
+        
+          border: 3px solid black;
+          border-collapse: collapse;
+          width: 40px;
+        }
+        th, td {
+        
+        border: 1px solid black;
+        border-collapse: collapse;
+        height: 40px;
+        }
+        
+        select{
+            width: 200px;
+        }
+        .price1 {
+    padding-left: 70%;
+        }
+        </style>
+</head>
+<body>
+    <h1>Payment Methods </h1>
+<div style="display: flex;">
+    <div style="width: 30%;"><table style="width:100%" >
+        <tr>
+          <th>Items</th>
+          <th>Quantity</th> 
+          <th>Price (THB)</th>
+        </tr>
+        <tr>
+            <td><b>Toy Name</b> by brand 
+          <p style="word-spacing: 40px;"> Gender Age </p>
+          <p style="color: red;">Instock / Out of Stock</p>
+          <p style="color: blue;">Delete</p></td>
+            <td>1</td>
+            <td><div class="price1">100.00</div></td>
+      
+          </tr>
+          <tr>
+            <td><b>Toy Name</b> by brand 
+          <p style="word-spacing: 40px;"> Gender Age </p>
+          <p style="color: red;">Instock / Out of Stock</p>
+          <p style="color: blue;">Delete</p></td>
+            <td>1</td>
+            <td><div class="price1">100.00</div></td>
+      
+          </tr>
+    </table>
+    </div>
+    <div>
+        <h3>Order Summary</h3>
+        
+        <p>Items(2):<span style="color: red;">200.00 </span>THB</p>
+        <p>Shipping Fee: <span style="color: red;">150.00</span> THB</p>
+        <hr>
+        <p><b>Order total:</b><b style="color: red;">200.00</b><b>THB</b></p>
+    </div>
+</div>          
+        Shipping Method: Kerry Express <br>
+
+
+        <br><div>
+            <b>Select payment methods</b><br>
+            <br><input type="radio" name="" id=""><b>Credit or Debit Cards</b> <br>
+            <input type="radio" name="" id=""><b>Paypal</b><br>
+            <input type="radio" name="" id=""><b>Line Pay</b>
+
+        </div>
+<div style="padding-left:33%;">
+<input type="button" value="Place your order"></div>
+
+
+</body>
+</html>
